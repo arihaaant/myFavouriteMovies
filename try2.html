@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link href="jquery-ui.css" rel="stylesheet">
+<title>Olvy Assignment</title>
+</head>
+<body>
+   
+    <h1 class="text-center">My favourite movies</h1>
+    <br>
+   
+    <div> <span class="featureFilter"> Filter by feature </span>
+    <div class="optionsDiv dropdown" >
+        <select id="selectField" >
+            <option value="None" selected class="dropdown-item">None</option>
+            <option value="rating" class="dropdown-item">Rating</option>
+            <option value="runtime" class="dropdown-item">Runtime</option>
+            <option value="release" class="dropdown-item">Release Date</option>
+        </select>
+ </div>
+    <span class="hiddenfilters">
+     
+
+<button onclick="toggler()" class="myButton btn btn-outline-primary"> Greater than
+</button>
+
+
+        <input type="text" name="num_val" id="sort_algo">
+        <label for="sort_algo" id="sort_algos"></label>
+        <label for="colorpicker">set rows to</label>
+        <input type="color" id="colorpicker" value="#0000ff">
+        <button type="button"  class="btn btn-outline-success" id="buttonGo">Reveal</button>
+    
+     </span>
+</div>
+    <br>
+    <br>
+    
+    <button type="button"  class="btn btn-dark" id="buttonGo" onclick="clearer()">Clear All</button>
+    <table id="myTable" class="table table-hover table-responsive">
+        
+    
+        <tbody>
+            
+        </tbody>
+    </table>
+    <script src="myScript.js"></script>
+    <script src="jquery-ui.css"></script>
+    <script src="jquery-ui.min.js"></script>
+</body>
+</html>

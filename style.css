@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans&family=Pacifico&family=Raleway&family=Yaldevi:wght@500&display=swap');
+.boss{
+    cursor: pointer;
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#kid{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#colorpicker{
+    padding:0em;
+    width: 20px;
+    height: 20px ;
+    
+}
+
+#subheading{
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size: 200%;
+}
+
+.mainhead{
+    font-size: 150%;
+}
+
+
+#selectField{
+    size: 30px;
+}
+
+div{
+    display: inline;
+    font-family: 'Yaldevi', sans-serif;
+    word-spacing: 5px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.featureFilter{
+    font-size: 22px;
+}
+
+#selectField{
+    font-size: 18px;
+    border-radius: 15px ;
+    text-align: center;
+    border-color: royalblue;  
+}
+
+#sort_algo{
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    border-color: grey;
+}
